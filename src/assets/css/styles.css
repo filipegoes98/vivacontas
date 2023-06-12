@@ -1,0 +1,119 @@
+/* padrão  */
+
+body {
+    height: 100vh;
+    padding: 0;
+}
+
+
+/*  */
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
+    text-align: center;
+    /* border: #2c3e50 solid; */
+    height: 100vh;
+    overflow: hidden;
+}
+
+nav {
+    padding: 30px;
+}
+
+a {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.router-link-exact-active {
+    color: #42b983;
+}
+
+
+/* header */
+
+.infoMenu {
+    background-color: #28792f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffffff;
+    height: 30%;
+}
+
+.resume {
+    width: 50%;
+    height: 10rem;
+    /* border: solid 1px white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.resume .enter,
+.resume .out {
+    /* border: solid .2px #ffffffff; */
+    width: 15rem;
+    height: 5rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume .enter {
+    background-color: #1b4b1f;
+}
+
+.resume .out {
+    background-color: #f00b0b;
+}
+
+
+/* Expenses  */
+
+
+.expenses {
+    margin: 0 5rem
+}
+#listExpenses{
+   width:auto;
+    overflow-y: scroll;
+    height: 18rem;
+}
+#listExpenses table{
+    margin: auto;
+    width: 100%;
+}
+
+/* #listExpenses table tr th,
+#listExpenses table tr td{
+ margin: 0 1rem
+} */
+
+ /* #modal {
+    border: solid 1px #f00b0b; 
+} */
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: .5rem;
+}
+
+.in{
+    color:#44c44f;
+    /* border-color:#7df308 !important */
+}
+.outReg{
+    color:#f00b0b;
+    /* border-color: #fb0808f5 !important; */
+}
